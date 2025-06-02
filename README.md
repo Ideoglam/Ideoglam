@@ -22,7 +22,7 @@
     // Example for testing in GitHub Actions
     document.getElementById("showMessageBtn").addEventListener("click", function() {
         const testMessage = "GitHub Actions Test Passed!";
-        document.getElementById("result").innerText = testMessage;
+        document.get ElementById("result").innerText = testMessage;
         console.log(testMessage);
     });
   </script>
