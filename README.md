@@ -20,7 +20,7 @@
   </footer>
   <script>
     // Example for testing in GitHub Actions
-    document.getElementById("showMessageBtn").addEventListener("click", function() {
+    document.get ElementById("showMessageBtn").addEventListener("click", function() {
         const testMessage = "GitHub Actions Test Passed!";
         document.get ElementById("result").innerText = testMessage;
         console.log(testMessage);
