@@ -13,10 +13,18 @@
   <main>
     <p id="greeting">Click the button below to see a message!</p>
     <button id="showMessageBtn">Show Message</button>
+    <p id="result"></p>
   </main>
   <footer>
     <p>&copy; 2025 Simple Web App</p>
   </footer>
-  <script src="script.js"></script>
+  <script>
+    // Example for testing in GitHub Actions
+    document.getElementById("showMessageBtn").addEventListener("click", function() {
+        const testMessage = "GitHub Actions Test Passed!";
+        document.getElementById("result").innerText = testMessage;
+        console.log(testMessage);
+    });
+  </script>
 </body>
 </html>
